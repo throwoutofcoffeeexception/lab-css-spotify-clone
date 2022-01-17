@@ -6,3 +6,187 @@ Green: #00B172
 White: #FFF
 
 */
+
+.spotifyLogo {
+    width: 200px;
+}
+
+.landingImage {
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    height: 1600px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 300px;
+}
+.landingImage > h3 {
+    font-size: 50px;
+    font-style: normal;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .links{
+    padding-bottom: 100px;
+  }
+
+  .Join {
+    padding: 13px 28px;
+    border: 1px solid #cccccc;
+    border-radius: 0;
+  }
+
+  .descriptionImage {
+    width: 50px;
+  }
+
+  .description {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+  }
+
+  .description > image{
+    height: 50px;
+  }
+
+  .descriptionBlock {
+    justify-content: center;
+    width: 200px;
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+  .HexImage {
+    width: 100px;
+  }
+
+  .redHeader {
+    color: red;
+  }
+
+  .diamant {
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .articleDescription {
+    width: 50%;
+    padding-bottom: 200px;
+  }
+
+  .section1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    padding-bottom: 50px;
+  }
+
+  .section2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 200px;
+  }
+
+  .SeePlans {
+    background-color: #FB3B49;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    color: white;
+    font-style: normal;
+    
+
+  }
+  .a {
+    font-style: normal;
+  }
+
+  .Login {
+    background: white;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    color: black;
+    font-style: normal;
+  }
+
+  .Join {
+    background: white;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    color: black;
+    font-style: normal;
+  }
+
+  .JoinForFree {
+    background: white;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    color: black;
+    font-style: normal;
+  }
+
+  a, u {
+    text-decoration: none;
+  }
+
+  .bestHeader {
+    background-color: rgba(255,204,53,.4);
+    transform: skew(9deg,0deg);
+    font-style: italic;
+  }
+
